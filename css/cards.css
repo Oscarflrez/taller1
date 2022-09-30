@@ -1,0 +1,30 @@
+#respuesta{
+    visibility: hidden;
+    opacity: 0;
+}
+.correcto{
+    color: rgb(65, 245, 5);
+    visibility: visible;
+    opacity: 1;
+}
+.incorrecto{
+    color: rgb(219, 238, 6);
+    visibility: visible;
+    opacity: 1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(40, 213, 181);
+}
+
